@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>pushoverSend.jar</name>
+			<type>1</type>
+			<location>C:/Users/kasulkem/Desktop/2020.03.17/pushoverSend.jar</location>
+		</link>
+	</linkedResources>
 </projectDescription>
