@@ -31,7 +31,7 @@ public class Notify {
   }
   
   /**
-   * This method generates a test message for your device and sends it via internet and the pushover service to you mobile phone
+   * pushoverNotify - This method generates a test message for your device and sends it via internet and the pushover service to you mobile phone
    * @author MarcelKasulke
    * 
    */
@@ -39,8 +39,8 @@ public class Notify {
     //Creating instance
 	PushoverRestClient pushoverRestClient = new PushoverRestClient();
     //Creating instance
-	Status result = pushoverRestClient.pushMessage(PushoverMessage.builderWithApiToken("a9xj4cuik92duf88psy2441qoy1phn")
-        .setUserId("urdk4ydoy1nrpj5cwengcq7z83z2cp")
+	Status result = pushoverRestClient.pushMessage(PushoverMessage.builderWithApiToken("xxx")
+        .setUserId("xxx")
         .setMessage(message)
         .setDevice(device)
         .setPriority(MessagePriority.HIGH)
