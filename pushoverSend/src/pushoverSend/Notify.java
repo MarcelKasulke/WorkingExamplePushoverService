@@ -13,8 +13,8 @@ import net.pushover.client.PushoverRestClient;
 import net.pushover.client.Status;
 
 /**
- * Test class for Pushover
- * @author kasulkem
+ * Testclass for PushOver-Dienst
+ * @author Marcel Kasulke
  *
  */
 public class Notify {
@@ -39,8 +39,8 @@ public class Notify {
     //Creating instance
 	PushoverRestClient pushoverRestClient = new PushoverRestClient();
     //Creating instance
-	Status result = pushoverRestClient.pushMessage(PushoverMessage.builderWithApiToken("a9xj4cuik92duf88psy2441qoy1phn")
-        .setUserId("urdk4ydoy1nrpj5cwengcq7z83z2cp")
+	Status result = pushoverRestClient.pushMessage(PushoverMessage.builderWithApiToken("xxx")
+        .setUserId("xxx")
         .setMessage(message)
         .setDevice(device)
         .setPriority(MessagePriority.HIGH)
