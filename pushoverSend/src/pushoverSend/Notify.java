@@ -1,6 +1,6 @@
 package pushoverSend;
 /*###############################################*/
-/*#   Imported classes                          #*/
+/*#   Imported classes                         #*/
 /*###############################################*/
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -32,7 +32,7 @@ public class Notify {
   
   /**
    * This method generates a test message for your device and sends it via internet and the pushover service to you mobile phone
-   * @author MarcelKasulke
+   * @author MarcelKasulke 
    * 
    */
   public  void pushoverNotify(String message, String device, String title, String url, String titleurl, String music) throws IOException, PushoverException {
