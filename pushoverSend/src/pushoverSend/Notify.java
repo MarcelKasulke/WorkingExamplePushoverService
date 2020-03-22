@@ -38,7 +38,7 @@ public class Notify {
   public  void pushoverNotify(String message, String device, String title, String url, String titleurl, String music) throws IOException, PushoverException {
     //Creating instance
 	PushoverRestClient pushoverRestClient = new PushoverRestClient();
-    //Creating instance
+    //Creating instance 
 	Status result = pushoverRestClient.pushMessage(PushoverMessage.builderWithApiToken("xxx")
         .setUserId("xxx")
         .setMessage(message)
