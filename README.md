@@ -12,7 +12,7 @@ Pushover Send for use with Galaxy Watch
  -------------
  Pushover App on your phone
  Some Java-Program or Commandline-Tool that triggers the classes that I added here
- A lot of the code was writte by serveral other people but here I wanted to add a working example that can be reused.
+ Parts of the code were written by serveral other people but here I wanted to add a working example that can be reused.
 
 Compatibility
 -------------
@@ -23,4 +23,4 @@ Compatibility
 
 Support
 -------
-Post question or comments to marcelkasulke@gmail.com
+Post question or comments to marcelkasulke ät gmail.commercial
