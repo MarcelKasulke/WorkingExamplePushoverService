@@ -14,7 +14,7 @@ import net.pushover.client.Status;
 
 /**
  * Test class for Pushover
- * @author kasulkem
+ * @author Marcel Kasulke
  *
  */
 public class Notify {
