@@ -50,7 +50,7 @@ public class Notify {
         .setTitleForURL(titleurl)
         .setSound(notifySound)
         .build());
-	//Send a message to the commandline. It's used to test if there are network problems. Therefore you can start the jar in the commandline.
+	//Send a message to the commandline. It is used to test if there are network problems. Therefore you can start the jar in the commandline.
     System.out.println(String.format("status: %d, request id: %s", new Object[] { Integer.valueOf(result.getStatus()), result.getRequestId() }));
     for (PushOverSound sound : pushoverRestClient.getSounds()) {
     	//Send the message
