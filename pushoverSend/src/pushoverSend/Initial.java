@@ -12,7 +12,7 @@ public class Initial{
 	public static void main(String[] args) throws PushoverException, IOException{
 		//Create Instance
 		Notify notify = new Notify();
-		//Show me some data on my phone and on my Galaxy Watch
+		//Show me some data on my phone and transfer it to my Galaxy Watch
 		notify.pushoverNotify("Testnachricht","Handy","Testprotokoll","www.github/xxx","GitHub Account","magic");
 	}
 }
