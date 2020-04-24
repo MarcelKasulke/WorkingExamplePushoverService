@@ -13,7 +13,7 @@ public class Initial{
 		//Create Instance
 		Notify notify = new Notify();
 		//Show me some data on my phone and transfer it to my Galaxy Watch
-		notify.pushoverNotify("Testnachricht","Handy","Testprotokoll","www.github/xxx","GitHub Account","magic");
+		notify.pushoverNotify("Testnachricht_","Handy","Testprotokoll","www.github/xxx","GitHub Account","magic");
 	}
 }
 
